@@ -136,10 +136,11 @@
         <div id="contact">
             <h2 style="text-align: center;margin-top: 5px;">Contact Me</h2>
         <br>
-            <form action="#">
-                <input type="text" placeholder=" your name" required>
-                <input type="email" placeholder=" your email" required>
-                <textarea name="text" placeholder="your message"></textarea>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="d3daaa27-23b3-4322-9137-b8396013291b">
+                <input type="text" name="username" placeholder=" your name" required>
+                <input type="email" name="email" placeholder=" your email" required>
+                <textarea name="message" placeholder="your message"></textarea>
                
                 <div class="submit-btn">
                     <button>Submit</button>
