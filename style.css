@@ -259,7 +259,7 @@ textarea {
     color:black;
     
 }
-@media(max-width:500px) {
+@media(max-width:767px) {
 .nav {
         flex-direction:column;
         height:150px;
