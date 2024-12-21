@@ -339,7 +339,7 @@ textarea {
         padding:15px 10px;
         height:max-content;
         box-shadow: 5px 5px rgb(137, 131, 131);
-        border: none;
+/*         border: none; */
 
     }
     .projectdesc p{
@@ -357,7 +357,7 @@ textarea {
     #contact{
         width:100%;
         height: auto;
-        border: none;
+/*         border: none; */
         box-shadow: 5px 5px rgb(137, 131, 131);
 
     }
